@@ -1,6 +1,9 @@
-*{
-    font-family: 'Indie Flower', cursive;
+@font-face {
+  font-family: 'comic-neue';  
+  src: url('fonts/comic-neue.bold.ttf') format('truetype');
 }
+
+
 div{
     font-family: Indie Flower;
 }
@@ -46,7 +49,7 @@ body {
     }
 
 nav{
-  padding: 0 3vw;
+  padding: 0 6vw;
   height: 12%;
   display: flex;
   align-items: center;
@@ -60,10 +63,16 @@ nav ul {
   gap: 2vw;
 }
 nav ul  li{
-  font-family: Comic ;
-  font-size: 1.4vw;
+  font-family: 'comic-neue', sans-serif;
+  font-weight: 100;
+  font-size: 1.1vw;
   list-style: none;
 }
+nav ul  li:hover{
+  color: #61D4D8;
+  transition: 0.4s;
+}
+
 .nav-l{
   align-items: center;
   justify-content: center;
