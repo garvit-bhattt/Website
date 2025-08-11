@@ -86,7 +86,7 @@ class ButtonTooltips {
       });
 
       button.addEventListener('mouseleave', () => {
-        this.hideTooltip(); // instantly remove
+        this.hideTooltip(); 
       });
 
       button.addEventListener('mousemove', (e) => {
@@ -182,5 +182,5 @@ class ButtonTooltips {
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     new ButtonTooltips();
-  }, 500); // optional slight delay
+  }, 500); 
 });
